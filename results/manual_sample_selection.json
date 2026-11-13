@@ -1,0 +1,24 @@
+{
+  "coherence_positions": [
+    "9781464823558.pdf#13",
+    "9781464823558.pdf#14",
+    "9781464823558.pdf#15",
+    "9781464823558.pdf#17",
+    "9781464823558.pdf#19",
+    "9781464823558.pdf#20",
+    "9781464823558.pdf#21",
+    "9781464823558.pdf#23",
+    "9781464823558.pdf#24",
+    "9781464823558.pdf#27"
+  ],
+  "coherence_rule": "10 page ID dau da sap xep; vi tri = ky tu khong-trang dau tien tu giua trang; nhieu chunk phu -> chunk trung tam nhat",
+  "test_questions": [
+    "IDR2026-TEST-004",
+    "IDR2026-TEST-001",
+    "IDR2026-TEST-002",
+    "IDR2026-TEST-003",
+    "IDR2026-TEST-005"
+  ],
+  "test_rule": "cau test co filter truoc, sau do theo id; lay 5 cau",
+  "created_at": "2026-11-13T12:39:16+00:00"
+}

@@ -1,0 +1,37 @@
+{
+  "selected": "C",
+  "ranking": [
+    "C",
+    "B",
+    "A"
+  ],
+  "criteria": "dev Hit@3 > dev Hit@1 > it chunk hon > thu tu chu cai",
+  "dev": {
+    "A": {
+      "n": 15,
+      "hit1": 4,
+      "hit3": 8,
+      "n_filter": 3,
+      "filter_compliant": 0,
+      "search_ms_total": 18.69
+    },
+    "B": {
+      "n": 15,
+      "hit1": 6,
+      "hit3": 8,
+      "n_filter": 3,
+      "filter_compliant": 0,
+      "search_ms_total": 14.78
+    },
+    "C": {
+      "n": 15,
+      "hit1": 8,
+      "hit3": 10,
+      "n_filter": 3,
+      "filter_compliant": 3,
+      "search_ms_total": 16.9
+    }
+  },
+  "decided_at": "2026-11-13T12:39:16+00:00",
+  "decided_before_test": true
+}

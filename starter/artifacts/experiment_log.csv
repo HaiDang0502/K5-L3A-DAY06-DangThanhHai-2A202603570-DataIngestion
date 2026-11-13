@@ -1,0 +1,4 @@
+strategy,config_name,chunk_size,overlap,metadata_filter,embedding_model,vector_store,chunk_count,hypothesis
+A,fixed_size_200_30,200,30,none,tfidf-baseline,in-memory,3031,"Cửa sổ nhỏ, chồng lấn vừa phải giữ được ngữ cảnh cục bộ, Hit@3 cao nhưng chunk có thể cắt giữa ý."
+B,paragraph_based,max_size,0,none,tfidf-baseline,in-memory,269,"Chunk theo đoạn giữ trọn ý, coherence cao hơn A, nhưng đoạn dài có thể làm loãng vector."
+C,paragraph_based_plus_filter,max_size,0,year/section,tfidf-baseline,in-memory,269,"Giống B nhưng áp metadata filter trước khi xếp hạng, kỳ vọng tăng độ chính xác cho câu có filter."

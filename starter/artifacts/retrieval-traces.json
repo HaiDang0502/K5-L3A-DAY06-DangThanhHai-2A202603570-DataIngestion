@@ -1,0 +1,2080 @@
+{
+  "IDR2026-DEV-001": {
+    "question": "What was the total external debt stock of low- and middle-income countries (LMICs) as of end-2025 in trillions/billions of USD, and what was the percentage increase compared to 2024?",
+    "split": "dev",
+    "gold_page": "Page 4 (Table 1.1), Page xv",
+    "evidence_quote": "LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024.",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.52704627669473
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.52704627669473
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.52704627669473
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_4",
+        "text": "and for low-income countries, climbing 8.9 percent to $262.4 billion, the biggest increase since 2020.",
+        "page": "Page xv, Page 6",
+        "metadata": {
+          "income_group": "Low-Income Countries",
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.32854975658340346
+      },
+      {
+        "chunk_id": "chunk_B_1",
+        "text": "The dramatic depreciation of the US dollar during the year accounted for 28.2 percent of the increase in LMICs’ external public and publicly guaranteed debt.",
+        "page": "Page xvi",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.29493107849086336
+      },
+      {
+        "chunk_id": "chunk_B_0",
+        "text": "LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024.",
+        "page": "Page 4 (Table 1.1), Page xv",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.2858900456679213
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_4",
+        "text": "and for low-income countries, climbing 8.9 percent to $262.4 billion, the biggest increase since 2020.",
+        "page": "Page xv, Page 6",
+        "metadata": {
+          "income_group": "Low-Income Countries",
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.32854975658340346
+      },
+      {
+        "chunk_id": "chunk_B_1",
+        "text": "The dramatic depreciation of the US dollar during the year accounted for 28.2 percent of the increase in LMICs’ external public and publicly guaranteed debt.",
+        "page": "Page xvi",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.29493107849086336
+      },
+      {
+        "chunk_id": "chunk_B_0",
+        "text": "LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024.",
+        "page": "Page 4 (Table 1.1), Page xv",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.2858900456679213
+      }
+    ]
+  },
+  "IDR2026-DEV-002": {
+    "question": "What percentage of the total increase in LMICs' external public and publicly guaranteed (PPG) debt in 2025 was accounted for by the depreciation of the US dollar?",
+    "split": "dev",
+    "gold_page": "Page xvi",
+    "evidence_quote": "The dramatic depreciation of the US dollar during the year accounted for 28.2 percent of the increase in LMICs’ external public and publicly guaranteed debt.",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5477225575051663
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5477225575051663
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5477225575051663
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_1",
+        "text": "The dramatic depreciation of the US dollar during the year accounted for 28.2 percent of the increase in LMICs’ external public and publicly guaranteed debt.",
+        "page": "Page xvi",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.7661225252094863
+      },
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.3386944714986523
+      },
+      {
+        "chunk_id": "chunk_B_12",
+        "text": "The increase in new public sector disbursements was driven by Mexico, which accounted for a 16.7 percent share of new LMIC issues, at $42.0 billion in 2025. Türkiye and Colombia were the next largest LMIC public sector issuers, at $27.7 billion and $27.5 billion respectively",
+        "page": "Page 17",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.27794793418520786
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_1",
+        "text": "The dramatic depreciation of the US dollar during the year accounted for 28.2 percent of the increase in LMICs’ external public and publicly guaranteed debt.",
+        "page": "Page xvi",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.7661225252094863
+      },
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.3386944714986523
+      },
+      {
+        "chunk_id": "chunk_B_12",
+        "text": "The increase in new public sector disbursements was driven by Mexico, which accounted for a 16.7 percent share of new LMIC issues, at $42.0 billion in 2025. Türkiye and Colombia were the next largest LMIC public sector issuers, at $27.7 billion and $27.5 billion respectively",
+        "page": "Page 17",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.27794793418520786
+      }
+    ]
+  },
+  "IDR2026-DEV-003": {
+    "question": "Excluding China, at what percentage rate did the cumulative external debt stock of middle-income countries (MICs) grow in 2025, and what was its total size?",
+    "split": "dev",
+    "gold_page": "Page 6",
+    "evidence_quote": "When China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025.",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.596284793999944
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.596284793999944
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.596284793999944
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_2",
+        "text": "When China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025.",
+        "page": "Page 6",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.48094476244134066
+      },
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.2288213354004869
+      },
+      {
+        "chunk_id": "chunk_B_7",
+        "text": "Argentina was the largest recipient among LMICs, accounting for over half of the new disbursements, at $14.4 billion, as the country continued to receive support for its stabilization and growth plans.",
+        "page": "Page 20",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.1832401857648604
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_2",
+        "text": "When China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025.",
+        "page": "Page 6",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.48094476244134066
+      },
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.2288213354004869
+      },
+      {
+        "chunk_id": "chunk_B_7",
+        "text": "Argentina was the largest recipient among LMICs, accounting for over half of the new disbursements, at $14.4 billion, as the country continued to receive support for its stabilization and growth plans.",
+        "page": "Page 20",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.1832401857648604
+      }
+    ]
+  },
+  "IDR2026-DEV-004": {
+    "question": "What was the average interest rate on new commitments from private creditors faced by IDA-eligible countries in 2025?",
+    "split": "dev",
+    "gold_page": "Page xvii, Page 27",
+    "evidence_quote": "borrowing from private creditors hardened lending terms disproportionately for IDA-eligible countries, which faced an average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s.",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.0
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.0
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.0
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_3",
+        "text": "borrowing from private creditors hardened lending terms disproportionately for IDA-eligible countries, which faced an average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.6336812976400081
+      },
+      {
+        "chunk_id": "chunk_B_16",
+        "text": "The difference in interest rates that this group of borrowers pays when borrowing from official creditors and rates on debt from private creditors widened significantly over the past decade, from 3.4 percentage points in 2016 to 5.5 percentage points in 2025.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.24661363687543122
+      },
+      {
+        "chunk_id": "chunk_B_17",
+        "text": "The regional increase was attributed to new bond issuance by Lao PDR, as the country returned to international markets in 2025 with issuance of $300 million in 11.25 percent sovereign notes on the Singapore Exchange.",
+        "page": "Page 27-28, Page 53",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.1802243977150577
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_3",
+        "text": "borrowing from private creditors hardened lending terms disproportionately for IDA-eligible countries, which faced an average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.6336812976400081
+      },
+      {
+        "chunk_id": "chunk_B_16",
+        "text": "The difference in interest rates that this group of borrowers pays when borrowing from official creditors and rates on debt from private creditors widened significantly over the past decade, from 3.4 percentage points in 2016 to 5.5 percentage points in 2025.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.24661363687543122
+      },
+      {
+        "chunk_id": "chunk_B_17",
+        "text": "The regional increase was attributed to new bond issuance by Lao PDR, as the country returned to international markets in 2025 with issuance of $300 million in 11.25 percent sovereign notes on the Singapore Exchange.",
+        "page": "Page 27-28, Page 53",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.1802243977150577
+      }
+    ]
+  },
+  "IDR2026-DEV-005": {
+    "question": "For low-income countries (LICs) specifically in 2025, what was the total external debt stock in billions of USD and its annual growth rate?",
+    "split": "dev",
+    "gold_page": "Page xv, Page 6",
+    "evidence_quote": "and for low-income countries, climbing 8.9 percent to $262.4 billion, the biggest increase since 2020.",
+    "filter": {
+      "income_group": "Low-Income Countries",
+      "year": "2025"
+    },
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.596284793999944
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.596284793999944
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.596284793999944
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_4",
+        "text": "and for low-income countries, climbing 8.9 percent to $262.4 billion, the biggest increase since 2020.",
+        "page": "Page xv, Page 6",
+        "metadata": {
+          "income_group": "Low-Income Countries",
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.31720765135267703
+      },
+      {
+        "chunk_id": "chunk_B_7",
+        "text": "Argentina was the largest recipient among LMICs, accounting for over half of the new disbursements, at $14.4 billion, as the country continued to receive support for its stabilization and growth plans.",
+        "page": "Page 20",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.25657034619629776
+      },
+      {
+        "chunk_id": "chunk_B_2",
+        "text": "When China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025.",
+        "page": "Page 6",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.25400055275618916
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_4",
+        "text": "and for low-income countries, climbing 8.9 percent to $262.4 billion, the biggest increase since 2020.",
+        "page": "Page xv, Page 6",
+        "metadata": {
+          "income_group": "Low-Income Countries",
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.31720765135267703
+      }
+    ]
+  },
+  "IDR2026-DEV-006": {
+    "question": "How did long-term net debt transfers for LMICs shift from 2024 to 2025?",
+    "split": "dev",
+    "gold_page": "Page xvii, Page 23",
+    "evidence_quote": "long-term debt flows shifted from a net outflow of $118.4 billion in 2024 to a net inflow of $45.4 billion.",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5163977794943223
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5163977794943223
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5163977794943223
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_5",
+        "text": "long-term debt flows shifted from a net outflow of $118.4 billion in 2024 to a net inflow of $45.4 billion.",
+        "page": "Page xvii, Page 23",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.5801801211764149
+      },
+      {
+        "chunk_id": "chunk_B_0",
+        "text": "LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024.",
+        "page": "Page 4 (Table 1.1), Page xv",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.18145422252184396
+      },
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.179671108971308
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_5",
+        "text": "long-term debt flows shifted from a net outflow of $118.4 billion in 2024 to a net inflow of $45.4 billion.",
+        "page": "Page xvii, Page 23",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.5801801211764149
+      },
+      {
+        "chunk_id": "chunk_B_0",
+        "text": "LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024.",
+        "page": "Page 4 (Table 1.1), Page xv",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.18145422252184396
+      },
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.179671108971308
+      }
+    ]
+  },
+  "IDR2026-DEV-007": {
+    "question": "Excluding the European Union's special support to Ukraine under the ERA initiative, by what percentage did external debt stock owed to multilateral creditors increase in 2025?",
+    "split": "dev",
+    "gold_page": "Page 11",
+    "evidence_quote": "However, when the European Union’s support to Ukraine is excluded, debt stock owed to multilateral creditors increased 7.0 percent to $1.4 trillion in 2026.",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5477225575051663
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5477225575051663
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5477225575051663
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_6",
+        "text": "However, when the European Union’s support to Ukraine is excluded, debt stock owed to multilateral creditors increased 7.0 percent to $1.4 trillion in 2026.",
+        "page": "Page 11",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.6802947326201524
+      },
+      {
+        "chunk_id": "chunk_B_2",
+        "text": "When China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025.",
+        "page": "Page 6",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.3010312280719597
+      },
+      {
+        "chunk_id": "chunk_B_16",
+        "text": "The difference in interest rates that this group of borrowers pays when borrowing from official creditors and rates on debt from private creditors widened significantly over the past decade, from 3.4 percentage points in 2016 to 5.5 percentage points in 2025.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.22804015393132598
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_6",
+        "text": "However, when the European Union’s support to Ukraine is excluded, debt stock owed to multilateral creditors increased 7.0 percent to $1.4 trillion in 2026.",
+        "page": "Page 11",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.6802947326201524
+      },
+      {
+        "chunk_id": "chunk_B_2",
+        "text": "When China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025.",
+        "page": "Page 6",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.3010312280719597
+      },
+      {
+        "chunk_id": "chunk_B_16",
+        "text": "The difference in interest rates that this group of borrowers pays when borrowing from official creditors and rates on debt from private creditors widened significantly over the past decade, from 3.4 percentage points in 2016 to 5.5 percentage points in 2025.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.22804015393132598
+      }
+    ]
+  },
+  "IDR2026-DEV-008": {
+    "question": "Which country was the largest recipient of IMF disbursements among LMICs in 2025, and how much did it receive?",
+    "split": "dev",
+    "gold_page": "Page 20",
+    "evidence_quote": "Argentina was the largest recipient among LMICs, accounting for over half of the new disbursements, at $14.4 billion, as the country continued to receive support for its stabilization and growth plans.",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.25819888974716115
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.25819888974716115
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.25819888974716115
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_7",
+        "text": "Argentina was the largest recipient among LMICs, accounting for over half of the new disbursements, at $14.4 billion, as the country continued to receive support for its stabilization and growth plans.",
+        "page": "Page 20",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.5058295422646883
+      },
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.26455518022574215
+      },
+      {
+        "chunk_id": "chunk_B_12",
+        "text": "The increase in new public sector disbursements was driven by Mexico, which accounted for a 16.7 percent share of new LMIC issues, at $42.0 billion in 2025. Türkiye and Colombia were the next largest LMIC public sector issuers, at $27.7 billion and $27.5 billion respectively",
+        "page": "Page 17",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.23889900118968624
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_7",
+        "text": "Argentina was the largest recipient among LMICs, accounting for over half of the new disbursements, at $14.4 billion, as the country continued to receive support for its stabilization and growth plans.",
+        "page": "Page 20",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.5058295422646883
+      },
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.26455518022574215
+      },
+      {
+        "chunk_id": "chunk_B_12",
+        "text": "The increase in new public sector disbursements was driven by Mexico, which accounted for a 16.7 percent share of new LMIC issues, at $42.0 billion in 2025. Türkiye and Colombia were the next largest LMIC public sector issuers, at $27.7 billion and $27.5 billion respectively",
+        "page": "Page 17",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.23889900118968624
+      }
+    ]
+  },
+  "IDR2026-DEV-009": {
+    "question": "In 2025, by how many billions of USD did personal remittance inflows to LMICs exceed foreign direct investment (FDI) inflows?",
+    "split": "dev",
+    "gold_page": "Page xviii",
+    "evidence_quote": "In 2025, remittances were about $294.5 billion more than FDI.",
+    "filter": {
+      "category": "External Financial Flows",
+      "year": "2025"
+    },
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.0
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.0
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.0
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_8",
+        "text": "In 2025, remittances were about $294.5 billion more than FDI.",
+        "page": "Page xviii",
+        "metadata": {
+          "category": "External Financial Flows",
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.3114130545476502
+      },
+      {
+        "chunk_id": "chunk_B_2",
+        "text": "When China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025.",
+        "page": "Page 6",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.2856512268898923
+      },
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.20720935824765166
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_8",
+        "text": "In 2025, remittances were about $294.5 billion more than FDI.",
+        "page": "Page xviii",
+        "metadata": {
+          "category": "External Financial Flows",
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.3114130545476502
+      }
+    ]
+  },
+  "IDR2026-DEV-010": {
+    "question": "What are the core components and primary functions of the World Bank Group's Debt Statistics Three-Tier Architecture?",
+    "split": "dev",
+    "gold_page": "Page 108 (Annex 3B)",
+    "evidence_quote": "Annex 3B. The World Bank Group Debt Statistics Three-Tier Architecture",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.596284793999944
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.596284793999944
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.596284793999944
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_9",
+        "text": "Annex 3B. The World Bank Group Debt Statistics Three-Tier Architecture",
+        "page": "Page 108 (Annex 3B)",
+        "metadata": {
+          "section": "Annex 3B",
+          "strategy": "B"
+        },
+        "score": 0.8465873604671071
+      },
+      {
+        "chunk_id": "chunk_B_1",
+        "text": "The dramatic depreciation of the US dollar during the year accounted for 28.2 percent of the increase in LMICs’ external public and publicly guaranteed debt.",
+        "page": "Page xvi",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.1680051806080548
+      },
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.16193753198944155
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_9",
+        "text": "Annex 3B. The World Bank Group Debt Statistics Three-Tier Architecture",
+        "page": "Page 108 (Annex 3B)",
+        "metadata": {
+          "section": "Annex 3B",
+          "strategy": "B"
+        },
+        "score": 0.8465873604671071
+      },
+      {
+        "chunk_id": "chunk_B_1",
+        "text": "The dramatic depreciation of the US dollar during the year accounted for 28.2 percent of the increase in LMICs’ external public and publicly guaranteed debt.",
+        "page": "Page xvi",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.1680051806080548
+      },
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.16193753198944155
+      }
+    ]
+  },
+  "IDR2026-DEV-011": {
+    "question": "If the $34.5 billion in principal repayments used for bond buyback or prepayment operations is excluded, what was the annual percentage increase in total debt service paid by LMICs to bondholders in 2025?",
+    "split": "dev",
+    "gold_page": "Page 23-24",
+    "evidence_quote": "When the total prepaid or buyback amount of $34.5 billion in principal repayments is removed from these payments... the annual percentage increase persists but is reduced to a much smaller pace of 2.9 percent, to $328.6 billion, in 2025.",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_33",
+        "text": "Page 34 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 34",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.7770768848105363
+      },
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.12855825929255907
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.12855825929255907
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_10",
+        "text": "When the total prepaid or buyback amount of $34.5 billion in principal repayments is removed from these payments... the annual percentage increase persists but is reduced to a much smaller pace of 2.9 percent, to $328.6 billion, in 2025.",
+        "page": "Page 23-24",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.565488897767746
+      },
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.31942438611460044
+      },
+      {
+        "chunk_id": "chunk_B_2",
+        "text": "When China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025.",
+        "page": "Page 6",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.2727325728527072
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_10",
+        "text": "When the total prepaid or buyback amount of $34.5 billion in principal repayments is removed from these payments... the annual percentage increase persists but is reduced to a much smaller pace of 2.9 percent, to $328.6 billion, in 2025.",
+        "page": "Page 23-24",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.565488897767746
+      },
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.31942438611460044
+      },
+      {
+        "chunk_id": "chunk_B_2",
+        "text": "When China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025.",
+        "page": "Page 6",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.2727325728527072
+      }
+    ]
+  },
+  "IDR2026-DEV-012": {
+    "question": "What was the debt-to-GNI ratio for the Sub-Saharan Africa region in 2025?",
+    "split": "dev",
+    "gold_page": "Page 30, Page 45",
+    "evidence_quote": "Sub-Saharan Africa continued to carry one of the heaviest debt burdens relative to income, with the debt-to-GNI ratio at 48.0 percent, well above the 34.4 percent recorded in 2015",
+    "filter": {
+      "region": "Sub-Saharan Africa",
+      "year": "2025"
+    },
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5163977794943223
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5163977794943223
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5163977794943223
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_11",
+        "text": "Sub-Saharan Africa continued to carry one of the heaviest debt burdens relative to income, with the debt-to-GNI ratio at 48.0 percent, well above the 34.4 percent recorded in 2015",
+        "page": "Page 30, Page 45",
+        "metadata": {
+          "region": "Sub-Saharan Africa",
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.52225659733664
+      },
+      {
+        "chunk_id": "chunk_B_18",
+        "text": "Europe and Central Asia retained the highest debt service-to-GNI and interest-to-GNI ratios among all LMIC regions in 2025, at 7.9 and 2.2 percent respectively",
+        "page": "Page 30, Page 45",
+        "metadata": {
+          "region": "Europe and Central Asia",
+          "year": "2025",
+          "section": "Key Debt Indicators",
+          "strategy": "B"
+        },
+        "score": 0.2491293782572037
+      },
+      {
+        "chunk_id": "chunk_B_7",
+        "text": "Argentina was the largest recipient among LMICs, accounting for over half of the new disbursements, at $14.4 billion, as the country continued to receive support for its stabilization and growth plans.",
+        "page": "Page 20",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.18480775909586264
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_11",
+        "text": "Sub-Saharan Africa continued to carry one of the heaviest debt burdens relative to income, with the debt-to-GNI ratio at 48.0 percent, well above the 34.4 percent recorded in 2015",
+        "page": "Page 30, Page 45",
+        "metadata": {
+          "region": "Sub-Saharan Africa",
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.52225659733664
+      }
+    ]
+  },
+  "IDR2026-DEV-013": {
+    "question": "Which three countries were the largest international sovereign bond issuers among LMICs in 2025, and what was the volume issued by the leading country?",
+    "split": "dev",
+    "gold_page": "Page 17",
+    "evidence_quote": "The increase in new public sector disbursements was driven by Mexico, which accounted for a 16.7 percent share of new LMIC issues, at $42.0 billion in 2025. Türkiye and Colombia were the next largest LMIC public sector issuers, at $27.7 billion and $27.5 billion respectively",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.3651483716701108
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.3651483716701108
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.3651483716701108
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_17",
+        "text": "The regional increase was attributed to new bond issuance by Lao PDR, as the country returned to international markets in 2025 with issuance of $300 million in 11.25 percent sovereign notes on the Singapore Exchange.",
+        "page": "Page 27-28, Page 53",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.3485809658704163
+      },
+      {
+        "chunk_id": "chunk_B_7",
+        "text": "Argentina was the largest recipient among LMICs, accounting for over half of the new disbursements, at $14.4 billion, as the country continued to receive support for its stabilization and growth plans.",
+        "page": "Page 20",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.2772138538240111
+      },
+      {
+        "chunk_id": "chunk_B_12",
+        "text": "The increase in new public sector disbursements was driven by Mexico, which accounted for a 16.7 percent share of new LMIC issues, at $42.0 billion in 2025. Türkiye and Colombia were the next largest LMIC public sector issuers, at $27.7 billion and $27.5 billion respectively",
+        "page": "Page 17",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.2762494702175885
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_17",
+        "text": "The regional increase was attributed to new bond issuance by Lao PDR, as the country returned to international markets in 2025 with issuance of $300 million in 11.25 percent sovereign notes on the Singapore Exchange.",
+        "page": "Page 27-28, Page 53",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.3485809658704163
+      },
+      {
+        "chunk_id": "chunk_B_7",
+        "text": "Argentina was the largest recipient among LMICs, accounting for over half of the new disbursements, at $14.4 billion, as the country continued to receive support for its stabilization and growth plans.",
+        "page": "Page 20",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.2772138538240111
+      },
+      {
+        "chunk_id": "chunk_B_12",
+        "text": "The increase in new public sector disbursements was driven by Mexico, which accounted for a 16.7 percent share of new LMIC issues, at $42.0 billion in 2025. Türkiye and Colombia were the next largest LMIC public sector issuers, at $27.7 billion and $27.5 billion respectively",
+        "page": "Page 17",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.2762494702175885
+      }
+    ]
+  },
+  "IDR2026-DEV-014": {
+    "question": "How does the cyclical nature of lending from private creditors differ from that of official creditors across economic cycles?",
+    "split": "dev",
+    "gold_page": "Page 4, Page 18-19",
+    "evidence_quote": "This pattern shows the procyclical nature of the private creditor lending... Unlike procyclical lending from private creditors, lending from official creditors, including multilateral institutions, is highly countercyclical in nature.",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.0
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.0
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.0
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_13",
+        "text": "This pattern shows the procyclical nature of the private creditor lending... Unlike procyclical lending from private creditors, lending from official creditors, including multilateral institutions, is highly countercyclical in nature.",
+        "page": "Page 4, Page 18-19",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.5932607387915455
+      },
+      {
+        "chunk_id": "chunk_B_16",
+        "text": "The difference in interest rates that this group of borrowers pays when borrowing from official creditors and rates on debt from private creditors widened significantly over the past decade, from 3.4 percentage points in 2016 to 5.5 percentage points in 2025.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.39763854951264194
+      },
+      {
+        "chunk_id": "chunk_B_3",
+        "text": "borrowing from private creditors hardened lending terms disproportionately for IDA-eligible countries, which faced an average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.25992658203116464
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_13",
+        "text": "This pattern shows the procyclical nature of the private creditor lending... Unlike procyclical lending from private creditors, lending from official creditors, including multilateral institutions, is highly countercyclical in nature.",
+        "page": "Page 4, Page 18-19",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.5932607387915455
+      },
+      {
+        "chunk_id": "chunk_B_16",
+        "text": "The difference in interest rates that this group of borrowers pays when borrowing from official creditors and rates on debt from private creditors widened significantly over the past decade, from 3.4 percentage points in 2016 to 5.5 percentage points in 2025.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.39763854951264194
+      },
+      {
+        "chunk_id": "chunk_B_3",
+        "text": "borrowing from private creditors hardened lending terms disproportionately for IDA-eligible countries, which faced an average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.25992658203116464
+      }
+    ]
+  },
+  "IDR2026-DEV-015": {
+    "question": "Which IDA-eligible countries signed Memoranda of Understanding (MoU) under the G-20 Common Framework during 2023–2024?",
+    "split": "dev",
+    "gold_page": "Page 32-33, Page 60",
+    "evidence_quote": "memorandum of understanding (MoU) by the Group of Twenty (G-20) Common Framework for Ghana and Zambia, signed in December 2023 and June 2024, respectively, and with Sri Lanka, conducted outside the Common Framework, also signed in June 2024.",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_19",
+        "text": "Page 20 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 20",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.7086887857626888
+      },
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.0
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.0
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_14",
+        "text": "memorandum of understanding (MoU) by the Group of Twenty (G-20) Common Framework for Ghana and Zambia, signed in December 2023 and June 2024, respectively, and with Sri Lanka, conducted outside the Common Framework, also signed in June 2024.",
+        "page": "Page 32-33, Page 60",
+        "metadata": {
+          "year": "2024",
+          "strategy": "B"
+        },
+        "score": 0.5369520162238925
+      },
+      {
+        "chunk_id": "chunk_B_3",
+        "text": "borrowing from private creditors hardened lending terms disproportionately for IDA-eligible countries, which faced an average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.28867128347641563
+      },
+      {
+        "chunk_id": "chunk_B_1",
+        "text": "The dramatic depreciation of the US dollar during the year accounted for 28.2 percent of the increase in LMICs’ external public and publicly guaranteed debt.",
+        "page": "Page xvi",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.11521378078559463
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_14",
+        "text": "memorandum of understanding (MoU) by the Group of Twenty (G-20) Common Framework for Ghana and Zambia, signed in December 2023 and June 2024, respectively, and with Sri Lanka, conducted outside the Common Framework, also signed in June 2024.",
+        "page": "Page 32-33, Page 60",
+        "metadata": {
+          "year": "2024",
+          "strategy": "B"
+        },
+        "score": 0.5369520162238925
+      },
+      {
+        "chunk_id": "chunk_B_3",
+        "text": "borrowing from private creditors hardened lending terms disproportionately for IDA-eligible countries, which faced an average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.28867128347641563
+      },
+      {
+        "chunk_id": "chunk_B_1",
+        "text": "The dramatic depreciation of the US dollar during the year accounted for 28.2 percent of the increase in LMICs’ external public and publicly guaranteed debt.",
+        "page": "Page xvi",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.11521378078559463
+      }
+    ]
+  },
+  "IDR2026-TEST-001": {
+    "question": "How did the debt-to-GNI ratio for IDA-eligible countries change in 2025 compared to 2024?",
+    "split": "test",
+    "gold_page": "Page xviii, Page 28",
+    "evidence_quote": "Their debt-to-income ratio fell from 42.1 percent to 41.2 percent, as economic growth outpaced debt accumulation",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5163977794943223
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5163977794943223
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5163977794943223
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_11",
+        "text": "Sub-Saharan Africa continued to carry one of the heaviest debt burdens relative to income, with the debt-to-GNI ratio at 48.0 percent, well above the 34.4 percent recorded in 2015",
+        "page": "Page 30, Page 45",
+        "metadata": {
+          "region": "Sub-Saharan Africa",
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.2984895457655066
+      },
+      {
+        "chunk_id": "chunk_B_3",
+        "text": "borrowing from private creditors hardened lending terms disproportionately for IDA-eligible countries, which faced an average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.276497463794029
+      },
+      {
+        "chunk_id": "chunk_B_18",
+        "text": "Europe and Central Asia retained the highest debt service-to-GNI and interest-to-GNI ratios among all LMIC regions in 2025, at 7.9 and 2.2 percent respectively",
+        "page": "Page 30, Page 45",
+        "metadata": {
+          "region": "Europe and Central Asia",
+          "year": "2025",
+          "section": "Key Debt Indicators",
+          "strategy": "B"
+        },
+        "score": 0.2727094814303839
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_11",
+        "text": "Sub-Saharan Africa continued to carry one of the heaviest debt burdens relative to income, with the debt-to-GNI ratio at 48.0 percent, well above the 34.4 percent recorded in 2015",
+        "page": "Page 30, Page 45",
+        "metadata": {
+          "region": "Sub-Saharan Africa",
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.2984895457655066
+      },
+      {
+        "chunk_id": "chunk_B_3",
+        "text": "borrowing from private creditors hardened lending terms disproportionately for IDA-eligible countries, which faced an average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.276497463794029
+      },
+      {
+        "chunk_id": "chunk_B_18",
+        "text": "Europe and Central Asia retained the highest debt service-to-GNI and interest-to-GNI ratios among all LMIC regions in 2025, at 7.9 and 2.2 percent respectively",
+        "page": "Page 30, Page 45",
+        "metadata": {
+          "region": "Europe and Central Asia",
+          "year": "2025",
+          "section": "Key Debt Indicators",
+          "strategy": "B"
+        },
+        "score": 0.2727094814303839
+      }
+    ]
+  },
+  "IDR2026-TEST-002": {
+    "question": "How did the interest rate gap between private creditors and official creditors for IDA-eligible borrowers widen between 2016 and 2025?",
+    "split": "test",
+    "gold_page": "Page xvii, Page 27",
+    "evidence_quote": "The difference in interest rates that this group of borrowers pays when borrowing from official creditors and rates on debt from private creditors widened significantly over the past decade, from 3.4 percentage points in 2016 to 5.5 percentage points in 2025.",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.25819888974716115
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.25819888974716115
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.25819888974716115
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_3",
+        "text": "borrowing from private creditors hardened lending terms disproportionately for IDA-eligible countries, which faced an average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.37655784800847486
+      },
+      {
+        "chunk_id": "chunk_B_16",
+        "text": "The difference in interest rates that this group of borrowers pays when borrowing from official creditors and rates on debt from private creditors widened significantly over the past decade, from 3.4 percentage points in 2016 to 5.5 percentage points in 2025.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.37403234252821127
+      },
+      {
+        "chunk_id": "chunk_B_13",
+        "text": "This pattern shows the procyclical nature of the private creditor lending... Unlike procyclical lending from private creditors, lending from official creditors, including multilateral institutions, is highly countercyclical in nature.",
+        "page": "Page 4, Page 18-19",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.23006186993659508
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_3",
+        "text": "borrowing from private creditors hardened lending terms disproportionately for IDA-eligible countries, which faced an average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.37655784800847486
+      },
+      {
+        "chunk_id": "chunk_B_16",
+        "text": "The difference in interest rates that this group of borrowers pays when borrowing from official creditors and rates on debt from private creditors widened significantly over the past decade, from 3.4 percentage points in 2016 to 5.5 percentage points in 2025.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.37403234252821127
+      },
+      {
+        "chunk_id": "chunk_B_13",
+        "text": "This pattern shows the procyclical nature of the private creditor lending... Unlike procyclical lending from private creditors, lending from official creditors, including multilateral institutions, is highly countercyclical in nature.",
+        "page": "Page 4, Page 18-19",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.23006186993659508
+      }
+    ]
+  },
+  "IDR2026-TEST-003": {
+    "question": "Which country's international sovereign bond issuance in 2025 at an 11.25% interest rate drove up average borrowing costs for IDA-eligible countries in East Asia & Pacific?",
+    "split": "test",
+    "gold_page": "Page 27-28, Page 53",
+    "evidence_quote": "The regional increase was attributed to new bond issuance by Lao PDR, as the country returned to international markets in 2025 with issuance of $300 million in 11.25 percent sovereign notes on the Singapore Exchange.",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_10",
+        "text": "Page 11 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 11",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5256169805325317
+      },
+      {
+        "chunk_id": "chunk_A_24",
+        "text": "Page 25 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 25",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5256169805325317
+      },
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.046173259659521605
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_3",
+        "text": "borrowing from private creditors hardened lending terms disproportionately for IDA-eligible countries, which faced an average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.41037033306823917
+      },
+      {
+        "chunk_id": "chunk_B_17",
+        "text": "The regional increase was attributed to new bond issuance by Lao PDR, as the country returned to international markets in 2025 with issuance of $300 million in 11.25 percent sovereign notes on the Singapore Exchange.",
+        "page": "Page 27-28, Page 53",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.39579374049303656
+      },
+      {
+        "chunk_id": "chunk_B_18",
+        "text": "Europe and Central Asia retained the highest debt service-to-GNI and interest-to-GNI ratios among all LMIC regions in 2025, at 7.9 and 2.2 percent respectively",
+        "page": "Page 30, Page 45",
+        "metadata": {
+          "region": "Europe and Central Asia",
+          "year": "2025",
+          "section": "Key Debt Indicators",
+          "strategy": "B"
+        },
+        "score": 0.14388234250440066
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_3",
+        "text": "borrowing from private creditors hardened lending terms disproportionately for IDA-eligible countries, which faced an average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s.",
+        "page": "Page xvii, Page 27",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.41037033306823917
+      },
+      {
+        "chunk_id": "chunk_B_17",
+        "text": "The regional increase was attributed to new bond issuance by Lao PDR, as the country returned to international markets in 2025 with issuance of $300 million in 11.25 percent sovereign notes on the Singapore Exchange.",
+        "page": "Page 27-28, Page 53",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.39579374049303656
+      },
+      {
+        "chunk_id": "chunk_B_18",
+        "text": "Europe and Central Asia retained the highest debt service-to-GNI and interest-to-GNI ratios among all LMIC regions in 2025, at 7.9 and 2.2 percent respectively",
+        "page": "Page 30, Page 45",
+        "metadata": {
+          "region": "Europe and Central Asia",
+          "year": "2025",
+          "section": "Key Debt Indicators",
+          "strategy": "B"
+        },
+        "score": 0.14388234250440066
+      }
+    ]
+  },
+  "IDR2026-TEST-004": {
+    "question": "Which LMIC region retained the highest debt service-to-GNI and interest-to-GNI ratios globally in 2025, and what were the respective values?",
+    "split": "test",
+    "gold_page": "Page 30, Page 45",
+    "evidence_quote": "Europe and Central Asia retained the highest debt service-to-GNI and interest-to-GNI ratios among all LMIC regions in 2025, at 7.9 and 2.2 percent respectively",
+    "filter": {
+      "region": "Europe and Central Asia",
+      "year": "2025",
+      "section": "Key Debt Indicators"
+    },
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.4618802153517007
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.4618802153517007
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.4618802153517007
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_18",
+        "text": "Europe and Central Asia retained the highest debt service-to-GNI and interest-to-GNI ratios among all LMIC regions in 2025, at 7.9 and 2.2 percent respectively",
+        "page": "Page 30, Page 45",
+        "metadata": {
+          "region": "Europe and Central Asia",
+          "year": "2025",
+          "section": "Key Debt Indicators",
+          "strategy": "B"
+        },
+        "score": 0.7397911152739356
+      },
+      {
+        "chunk_id": "chunk_B_11",
+        "text": "Sub-Saharan Africa continued to carry one of the heaviest debt burdens relative to income, with the debt-to-GNI ratio at 48.0 percent, well above the 34.4 percent recorded in 2015",
+        "page": "Page 30, Page 45",
+        "metadata": {
+          "region": "Sub-Saharan Africa",
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.24041436945748113
+      },
+      {
+        "chunk_id": "chunk_B_12",
+        "text": "The increase in new public sector disbursements was driven by Mexico, which accounted for a 16.7 percent share of new LMIC issues, at $42.0 billion in 2025. Türkiye and Colombia were the next largest LMIC public sector issuers, at $27.7 billion and $27.5 billion respectively",
+        "page": "Page 17",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.2387686651452215
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_18",
+        "text": "Europe and Central Asia retained the highest debt service-to-GNI and interest-to-GNI ratios among all LMIC regions in 2025, at 7.9 and 2.2 percent respectively",
+        "page": "Page 30, Page 45",
+        "metadata": {
+          "region": "Europe and Central Asia",
+          "year": "2025",
+          "section": "Key Debt Indicators",
+          "strategy": "B"
+        },
+        "score": 0.7397911152739356
+      }
+    ]
+  },
+  "IDR2026-TEST-005": {
+    "question": "What percentage of total LMIC external debt service payments did China account for in 2025?",
+    "split": "test",
+    "gold_page": "Page 24, Page 35",
+    "evidence_quote": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+    "filter": null,
+    "config_A_top3": [
+      {
+        "chunk_id": "chunk_A_0",
+        "text": "Page 1 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 1",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5163977794943223
+      },
+      {
+        "chunk_id": "chunk_A_1",
+        "text": "Page 2 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 2",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5163977794943223
+      },
+      {
+        "chunk_id": "chunk_A_2",
+        "text": "Page 3 content covering International Debt Statistics 2026, debt stock, servicing, and regional indicators.",
+        "page": "Page 3",
+        "metadata": {
+          "strategy": "A",
+          "type": "fixed_size",
+          "year": "2025"
+        },
+        "score": 0.5163977794943223
+      }
+    ],
+    "config_B_top3": [
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.44396776404326527
+      },
+      {
+        "chunk_id": "chunk_B_2",
+        "text": "When China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025.",
+        "page": "Page 6",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.28841591164342784
+      },
+      {
+        "chunk_id": "chunk_B_10",
+        "text": "When the total prepaid or buyback amount of $34.5 billion in principal repayments is removed from these payments... the annual percentage increase persists but is reduced to a much smaller pace of 2.9 percent, to $328.6 billion, in 2025.",
+        "page": "Page 23-24",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.24754652253136955
+      }
+    ],
+    "config_C_top3": [
+      {
+        "chunk_id": "chunk_B_19",
+        "text": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+        "page": "Page 24, Page 35",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.44396776404326527
+      },
+      {
+        "chunk_id": "chunk_B_2",
+        "text": "When China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025.",
+        "page": "Page 6",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.28841591164342784
+      },
+      {
+        "chunk_id": "chunk_B_10",
+        "text": "When the total prepaid or buyback amount of $34.5 billion in principal repayments is removed from these payments... the annual percentage increase persists but is reduced to a much smaller pace of 2.9 percent, to $328.6 billion, in 2025.",
+        "page": "Page 23-24",
+        "metadata": {
+          "year": "2025",
+          "strategy": "B"
+        },
+        "score": 0.24754652253136955
+      }
+    ]
+  }
+}

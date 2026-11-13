@@ -1,0 +1,273 @@
+[
+  {
+    "id": "IDR2026-DEV-001",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "What was the total external debt stock of low- and middle-income countries (LMICs) as of end-2025 in trillions/billions of USD, and what was the percentage increase compared to 2024?",
+    "expected_answer": "As of end-2025, LMICs' external borrowing levels reached a record $9.4 trillion, increasing 5.5 percent from $8.9 trillion in 2024.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 27,
+    "evidence_quote": "LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024.",
+    "gold_page_original": "Page 4 (Table 1.1), Page xv",
+    "expected_answer_original": "As of end-2025, LMICs' external borrowing levels reached a record $9.4 trillion (specifically $9,445.0 billion), increasing 5.5% from $8.9 trillion ($8,949.6 billion) in 2024.",
+    "revision_note": "Bo so lieu bang (9,445.0 / 8,949.6) vi khong co trong evidence."
+  },
+  {
+    "id": "IDR2026-DEV-002",
+    "split": "dev",
+    "question_type": "paraphrased",
+    "question": "What percentage of the total increase in LMICs' external public and publicly guaranteed (PPG) debt in 2025 was accounted for by the depreciation of the US dollar?",
+    "expected_answer": "The dramatic depreciation of the US dollar during 2025 accounted for 28.2 percent of the increase in LMICs' external public and publicly guaranteed (PPG) debt due to valuation effects.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 19,
+    "evidence_quote": "The dramatic depreciation of the US dollar during the year accounted for 28.2 percent of the increase in LMICs’ external public and publicly guaranteed debt.",
+    "gold_page_original": "Page xvi"
+  },
+  {
+    "id": "IDR2026-DEV-003",
+    "split": "dev",
+    "question_type": "conditional_exception",
+    "question": "Excluding China, at what percentage rate did the cumulative external debt stock of middle-income countries (MICs) grow in 2025, and what was its total size?",
+    "expected_answer": "When China is excluded, the cumulative external debt stock of MICs increased by 9.1 percent in 2025, reaching $6.9 trillion.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 31,
+    "evidence_quote": "When China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025.",
+    "gold_page_original": "Page 6"
+  },
+  {
+    "id": "IDR2026-DEV-004",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "What was the average interest rate on new commitments from private creditors faced by IDA-eligible countries in 2025?",
+    "expected_answer": "IDA-eligible countries faced an average interest rate of 8.2 percent on new commitments from private creditors in 2025, the highest rate since the late 1980s.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 20,
+    "evidence_quote": "borrowing from private creditors hardened lending terms disproportionately for IDA-eligible countries, which faced an average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s.",
+    "gold_page_original": "Page xvii, Page 27"
+  },
+  {
+    "id": "IDR2026-DEV-005",
+    "split": "dev",
+    "question_type": "metadata_filter",
+    "question": "According to the Key Takeaways section, for low-income countries (LICs) specifically in 2025, what was the total external debt stock in billions of USD and its annual growth rate?",
+    "expected_answer": "The external debt stock for low-income countries climbed 8.9 percent to $262.4 billion in 2025, marking the biggest annual increase since 2020.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 19,
+    "evidence_quote": "and for low-income countries, climbing 8.9 percent to $262.4 billion, the biggest increase since 2020.",
+    "gold_page_original": "Page xv, Page 6",
+    "filter_original": {
+      "income_group": "Low-Income Countries",
+      "year": "2025"
+    },
+    "question_original": "For low-income countries (LICs) specifically in 2025, what was the total external debt stock in billions of USD and its annual growth rate?",
+    "filter": {
+      "section": "Key Takeaways"
+    },
+    "revision_note": "Filter dung truong co that (section); cau hoi neu ro pham vi."
+  },
+  {
+    "id": "IDR2026-DEV-006",
+    "split": "dev",
+    "question_type": "paraphrased",
+    "question": "How did long-term net debt transfers for LMICs shift from 2024 to 2025?",
+    "expected_answer": "Long-term debt flows shifted from a net outflow of $118.4 billion in 2024 to a net inflow of $45.4 billion in 2025, ending three consecutive years of negative transfers.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 20,
+    "evidence_quote": "long-term debt flows shifted from a net outflow of $118.4 billion in 2024 to a net inflow of $45.4 billion.",
+    "gold_page_original": "Page xvii, Page 23"
+  },
+  {
+    "id": "IDR2026-DEV-007",
+    "split": "dev",
+    "question_type": "conditional_exception",
+    "question": "Excluding the European Union's special support to Ukraine under the ERA initiative, by what percentage did external debt stock owed to multilateral creditors increase in 2025?",
+    "expected_answer": "When EU support to Ukraine is excluded, debt stock owed to multilateral creditors increased by 7.0 percent to $1.4 trillion in 2025, compared to 9.6 percent ($1.5 trillion) when Ukraine is included.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 38,
+    "evidence_quote": "However, when the European Union’s support to Ukraine is excluded, debt stock owed to multilateral creditors increased 7.0 percent to $1.4 trillion in 2026.",
+    "gold_page_original": "Page 11"
+  },
+  {
+    "id": "IDR2026-DEV-008",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "Which country was the largest recipient of IMF disbursements among LMICs in 2025, and how much did it receive?",
+    "expected_answer": "Argentina was the largest recipient among LMICs, receiving $14.4 billion from the IMF in 2025, accounting for over half of total new IMF disbursements to LMICs ($30.7 billion).",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 45,
+    "evidence_quote": "Argentina was the largest recipient among LMICs, accounting for over half of the new disbursements, at $14.4 billion, as the country continued to receive support for its stabilization and growth plans.",
+    "gold_page_original": "Page 20"
+  },
+  {
+    "id": "IDR2026-DEV-009",
+    "split": "dev",
+    "question_type": "metadata_filter",
+    "question": "According to the Key Takeaways section, in 2025, by how many billions of USD did personal remittance inflows to LMICs exceed foreign direct investment (FDI) inflows?",
+    "expected_answer": "In 2025, personal remittance inflows to LMICs were about $294.5 billion more than FDI inflows.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 21,
+    "evidence_quote": "In 2025, remittances were about $294.5 billion more than FDI.",
+    "gold_page_original": "Page xviii",
+    "filter_original": {
+      "category": "External Financial Flows",
+      "year": "2025"
+    },
+    "question_original": "In 2025, by how many billions of USD did personal remittance inflows to LMICs exceed foreign direct investment (FDI) inflows?",
+    "filter": {
+      "section": "Key Takeaways"
+    },
+    "revision_note": "Filter dung truong co that (section); cau hoi neu ro pham vi."
+  },
+  {
+    "id": "IDR2026-DEV-010",
+    "split": "dev",
+    "question_type": "paraphrased",
+    "question": "How do the three tiers of the World Bank Group Debt Statistics Three-Tier Architecture (DRS, IDS and IDR) differ in what they capture or examine?",
+    "expected_answer": "The DRS captures what countries report, the IDS establishes what happened, and the IDR examines why it happened, why it matters, who is most exposed and more vulnerable, and what policy makers should watch next.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 133,
+    "evidence_quote": "Where the DRS captures what countries report, and IDS establishes what happened, the IDR examines why it happened, why it matters, who is most exposed and more vulnerable, and what policy makers should watch next.",
+    "gold_page_original": "Page 108 (Annex 3B)",
+    "question_original": "What are the core components and primary functions of the World Bank Group's Debt Statistics Three-Tier Architecture?",
+    "evidence_quote_original": "Annex 3B. The World Bank Group Debt Statistics Three-Tier Architecture",
+    "expected_answer_original": "The Three-Tier Architecture consists of: Tier 1 - DRS (Debtor Reporting System: granular loan-level data collection from reporting countries), Tier 2 - IDS (International Debt Statistics: data standardization, comparability, and public disclosure), and Tier 3 - IDR (International Debt Report: macroeconomic analysis and policy insights).",
+    "revision_note": "Evidence cu chi la tieu de (khong ho tro dap an) -> doan tren PDF p133 neu vai tro ca 3 tang."
+  },
+  {
+    "id": "IDR2026-DEV-011",
+    "split": "dev",
+    "question_type": "conditional_exception",
+    "question": "If the $34.5 billion in principal repayments used for bond buyback or prepayment operations is excluded, what was the annual percentage increase in total debt service paid by LMICs to bondholders in 2025?",
+    "expected_answer": "When the $34.5 billion in principal repayments for buyback or prepayment operations is removed, the annual percentage increase in debt service payments to bondholders is reduced to 2.9 percent, to $328.6 billion, in 2025.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 49,
+    "evidence_quote": "From the composition standpoint, when subtracting the buyback and prepaid principal payment amounts from total debt service payments made to bondholders alone, the annual percentage increase persists but is reduced to a much smaller pace of 2.9 percent, to $328.6 billion, in 2025.",
+    "evidence_quote_original": "When the total prepaid or buyback amount of $34.5 billion in principal repayments is removed from these payments... the annual percentage increase persists but is reduced to a much smaller pace of 2.9 percent, to $328.6 billion, in 2025.",
+    "expected_answer_original": "When the prepaid or buyback amount of $34.5 billion is removed, the annual growth rate of debt service to bondholders drops to 2.9 percent ($328.6 billion), down from 13.7 percent ($363.1 billion).",
+    "revision_note": "Evidence ghep bang dau ... nen thay bang 1 doan lien tuc tren PDF p49; bo phan \"13.7% ($363.1B)\" vi khong co trong nguon."
+  },
+  {
+    "id": "IDR2026-DEV-012",
+    "split": "dev",
+    "question_type": "metadata_filter",
+    "question": "In the Key Debt Indicators section of Chapter 1, what was the debt-to-GNI ratio for the Sub-Saharan Africa region in 2025?",
+    "expected_answer": "Sub-Saharan Africa recorded a debt-to-GNI ratio of 48.0 percent in 2025, well above the 34.4 percent recorded in 2015.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 60,
+    "evidence_quote": "Sub-Saharan Africa continued to carry one of the heaviest debt burdens relative to income, with the debt-to-GNI ratio at 48.0 percent, well above the 34.4 percent recorded in 2015",
+    "gold_page_original": "Page 30, Page 45",
+    "filter_original": {
+      "region": "Sub-Saharan Africa",
+      "year": "2025"
+    },
+    "question_original": "What was the debt-to-GNI ratio for the Sub-Saharan Africa region in 2025?",
+    "filter": {
+      "section": "Key Debt Indicators, 2015–25"
+    },
+    "revision_note": "Filter dung truong co that (section); cau hoi neu ro pham vi."
+  },
+  {
+    "id": "IDR2026-DEV-013",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "Which three countries were the largest international sovereign bond issuers among LMICs in 2025, and what was the volume issued by the leading country?",
+    "expected_answer": "The largest public sector bond issuers were Mexico ($42.0 billion, accounting for 16.7% of LMIC issues), Türkiye ($27.7 billion), and Colombia ($27.5 billion).",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 42,
+    "evidence_quote": "The increase in new public sector disbursements was driven by Mexico, which accounted for a 16.7 percent share of new LMIC issues, at $42.0 billion in 2025. Türkiye and Colombia were the next largest LMIC public sector issuers, at $27.7 billion and $27.5 billion respectively",
+    "gold_page_original": "Page 17"
+  },
+  {
+    "id": "IDR2026-DEV-014",
+    "split": "dev",
+    "question_type": "paraphrased",
+    "question": "How does the cyclical nature of lending from private creditors differ from that of official creditors across economic cycles?",
+    "expected_answer": "Private creditor lending is procyclical, whereas lending from official creditors, including multilateral institutions, is highly countercyclical: during COVID-19 and its aftermath the World Bank Group and other multilateral institutions stepped up financing (budget support lending) to stabilize LMIC economies.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 44,
+    "evidence_quote": "Unlike procyclical lending from private creditors, lending from official creditors, including multilateral institutions, is highly countercyclical in nature. During the COVID-19 pandemic and its aftermath, the World Bank Group and other multilateral institutions stepped up their financing to stabilize LMIC economies through budget support lending",
+    "evidence_quote_original": "This pattern shows the procyclical nature of the private creditor lending... Unlike procyclical lending from private creditors, lending from official creditors, including multilateral institutions, is highly countercyclical in nature.",
+    "expected_answer_original": "Private creditor lending is procyclical (expanding rapidly during favorable times and retracting during crises), whereas official creditor lending (including multilateral institutions) is highly countercyclical (increasing disbursements during crises to stabilize economies).",
+    "revision_note": "Evidence ghep 2 trang bang ... nen dung doan doi chieu tren PDF p44 (du ca hai ve)."
+  },
+  {
+    "id": "IDR2026-DEV-015",
+    "split": "dev",
+    "question_type": "conditional_exception",
+    "question": "Which IDA-eligible countries signed Memoranda of Understanding (MoU) under the G-20 Common Framework during 2023–2024?",
+    "expected_answer": "Ghana (signed MoU in December 2023) and Zambia (signed MoU in June 2024). Sri Lanka also signed in June 2024, but outside the Common Framework.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 69,
+    "evidence_quote": "memorandum of understanding (MoU) by the Group of Twenty (G-20) Common Framework for Ghana and Zambia, signed in December 2023 and June 2024, respectively, and with Sri Lanka, conducted outside the Common Framework, also signed in June 2024.",
+    "gold_page_original": "Page 32-33, Page 60"
+  },
+  {
+    "id": "IDR2026-TEST-001",
+    "split": "test",
+    "question_type": "direct",
+    "question": "How did the debt-to-GNI ratio for IDA-eligible countries change in 2025 compared to 2024?",
+    "expected_answer": "The debt-to-income (GNI) ratio of IDA-eligible countries fell from 42.1 percent in 2024 to 41.2 percent in 2025, as economic growth outpaced debt accumulation.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 21,
+    "evidence_quote": "Their debt-to-income ratio fell from 42.1 percent to 41.2 percent, as economic growth outpaced debt accumulation",
+    "gold_page_original": "Page xviii, Page 28",
+    "expected_answer_original": "Their debt-to-income (GNI) ratio fell from 42.1 percent in 2024 to 41.2 percent in 2025, as economic growth (GNI up 10.5%) outpaced debt accumulation (up 8.1%).",
+    "revision_note": "Bo so tang truong GNI/no (10.5%, 8.1%) vi khong co trong evidence."
+  },
+  {
+    "id": "IDR2026-TEST-002",
+    "split": "test",
+    "question_type": "paraphrased",
+    "question": "How did the interest rate gap between private creditors and official creditors for IDA-eligible borrowers widen between 2016 and 2025?",
+    "expected_answer": "The interest rate gap widened significantly from 3.4 percentage points in 2016 to 5.5 percentage points in 2025, driven by private creditor rates reaching a record 8.2 percent.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 20,
+    "evidence_quote": "The difference in interest rates that this group of borrowers pays when borrowing from official creditors and rates on debt from private creditors widened significantly over the past decade, from 3.4 percentage points in 2016 to 5.5 percentage points in 2025.",
+    "gold_page_original": "Page xvii, Page 27"
+  },
+  {
+    "id": "IDR2026-TEST-003",
+    "split": "test",
+    "question_type": "conditional_exception",
+    "question": "Which country's international sovereign bond issuance in 2025 at an 11.25% interest rate drove up average borrowing costs for IDA-eligible countries in East Asia & Pacific?",
+    "expected_answer": "Lao PDR (Lao People's Democratic Republic), which returned to international markets in 2025 with $300 million in 11.25 percent sovereign notes on the Singapore Exchange.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 66,
+    "evidence_quote": "The regional increase was attributed to new bond issuance by Lao PDR, as the country returned to international markets in 2025 with issuance of $300 million in 11.25 percent sovereign notes on the Singapore Exchange.",
+    "gold_page_original": "Page 27-28, Page 53",
+    "expected_answer_original": "Lao PDR (Lao People's Democratic Republic), which issued $300 million in 11.25 percent sovereign notes maturing in 2030 on the Singapore Exchange.",
+    "revision_note": "Bo 'maturing in 2030' vi khong co trong evidence."
+  },
+  {
+    "id": "IDR2026-TEST-004",
+    "split": "test",
+    "question_type": "metadata_filter",
+    "question": "In the Key Debt Indicators section of Chapter 1, which LMIC region retained the highest debt service-to-GNI and interest-to-GNI ratios globally in 2025, and what were the respective values?",
+    "expected_answer": "Europe and Central Asia retained the highest debt service-to-GNI ratio (7.9 percent) and interest-to-GNI ratio (2.2 percent) among all LMIC regions in 2025.",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 60,
+    "evidence_quote": "Europe and Central Asia retained the highest debt service-to-GNI and interest-to-GNI ratios among all LMIC regions in 2025, at 7.9 and 2.2 percent respectively",
+    "filter": {
+      "section": "Key Debt Indicators, 2015–25"
+    },
+    "gold_page_original": "Page 30, Page 45",
+    "filter_original": {
+      "region": "Europe and Central Asia",
+      "year": "2025",
+      "section": "Key Debt Indicators"
+    },
+    "question_original": "Which LMIC region retained the highest debt service-to-GNI and interest-to-GNI ratios globally in 2025, and what were the respective values?",
+    "revision_note": "Filter chi giu section (khop outline); cau hoi neu ro pham vi."
+  },
+  {
+    "id": "IDR2026-TEST-005",
+    "split": "test",
+    "question_type": "paraphrased",
+    "question": "What percentage of total LMIC external debt service payments did China account for in 2025?",
+    "expected_answer": "China accounted for 30.0 percent of total LMIC debt service payments in 2025, paying $419.8 billion (a 13.7 percent annual increase).",
+    "gold_source_id": "9781464823558.pdf",
+    "gold_page": 49,
+    "evidence_quote": "China, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025.",
+    "gold_page_original": "Page 24, Page 35"
+  }
+]
